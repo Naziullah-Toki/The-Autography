@@ -1,0 +1,143 @@
+.nav-link{
+    color: rgb(43, 214, 226);
+    position: relative;
+}
+
+.nav-link:hover{
+    
+    color: black !important;
+}
+
+
+
+.nav-link:after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    background-color: black;
+    transition: 0.3s;
+    transition-timing-function:  ease-in-out;
+    transform: scaleX(0);
+}
+.nav-link:hover::after{
+    transform: scaleX(1);
+}
+
+
+.nav-item{
+    font-size: 20px;
+}
+
+.dropdown-menu{
+    font-size: 20px ;
+}
+
+.dropdown-item:hover{
+   background-color: rgb(43, 226, 141);
+}
+.image{
+    position: relative;
+    background: url(/img/computer-2982270_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    background-size: 100% 100%;
+   
+
+
+}
+/* @media(max-width:1920px){
+    .image{
+        min-height: 100vh;
+    }
+} */
+/* @media(max-width:1440px){
+    .image{
+        min-height: 100vh;
+    }
+} */
+@media(max-width:1366px){
+    .image{
+        min-height: 100vh;
+    }
+}
+@media(max-width:1024px){
+    .image{
+        min-height: 80vh;
+    }
+}
+@media(max-width:900px){
+    .image{
+        min-height: 60vh;
+    }
+}
+@media(max-width:700px){
+    .image{
+        min-height: 40;
+    }
+}
+
+.image{
+    position: relative;
+    
+}
+
+.color-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: blueviolet;
+}
+
+
+.about-me,h4{
+    color: rgb(8, 49, 85);
+}
+
+
+.media-section{
+    position: relative;
+    background: url(/img/360_F_535473874_OWCa2ohzXXNZgqnlzF9QETsnbrSO9pFS.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    
+}
+
+.media-body,p{
+    color: aliceblue;
+}
+
+
+/* .carousel-item{
+
+    width: 60%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+
+.coursel-image{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 10px 10px;
+    margin-bottom: 10px ;
+}
+
+
+.card-text{
+    color: rgba(89, 83, 94, 0.685);
+}
+
+.card-info{
+
+ 
+    color: blueviolet;
+}
